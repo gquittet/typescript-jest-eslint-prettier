@@ -12,6 +12,8 @@
     "prebuild": "npm run clean",
     "build": "tsc",
     "start": "node -r tsconfig-paths/register build/main.js",
+    "lint": "prettier --check .",
+    "format": "prettier --write .",
     "test": "cross-env NODE_ENV=test jest --passWithNoTests",
     "test:coverage": "npm run test -- --collectCoverage",
     "test:watch": "npm run test -- --watchAll"
