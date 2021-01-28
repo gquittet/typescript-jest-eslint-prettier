@@ -1,0 +1,19 @@
+{
+  "name": "typescript-jest-eslint-prettier-seed",
+  "version": "1.0.0",
+  "description": "A seed to easily start your project with TypeScript, Jest, ESLint and Prettier",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript",
+    "jest",
+    "eslint",
+    "prettier",
+    "seed"
+  ],
+  "author": "Guillaume Quittet <guillaume.quittet@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {}
+}
