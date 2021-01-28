@@ -4,6 +4,10 @@
   "description": "A seed to easily start your project with TypeScript, Jest, ESLint and Prettier",
   "main": "build/index.js",
   "scripts": {
+    "clean": "rimraf build/",
+    "prebuild": "npm run clean",
+    "build": "tsc",
+    "start": "node -r tsconfig-paths/register build/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
